@@ -31,7 +31,7 @@ const LoginPage = () => {
                   <Form.Control type="password" placeholder="Password" />
                 </Form.Group>
 
-                <Button variant="primary" type="submit" className="w-100 mt-3">
+                <Button variant="warning" type="submit" className="w-100 mt-3">
                   Login
                 </Button>
               </Form>
