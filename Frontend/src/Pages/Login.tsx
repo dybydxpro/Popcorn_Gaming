@@ -10,13 +10,16 @@ const LoginPage = () => {
           <Card className="shadow-lg">
             <Card.Body>
               <div className="text-center">
-                <img
-                  src={logo}
-                  width="65"
-                  height="65"
-                  alt="Logo"
-                  className="mb-2"
-                />
+                <a href="/">
+                  <img
+                    src={logo}
+                    width="65"
+                    height="65"
+                    alt="Logo"
+                    className="mb-2"
+                  />
+                </a>
+
                 <h3 className=" mb-4">Login</h3>
               </div>
 
