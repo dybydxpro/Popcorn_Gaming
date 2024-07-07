@@ -1,6 +1,6 @@
-// import React from 'react';
-import { Container, Row, Col, Form, Button, Card } from 'react-bootstrap';
-// import './LoginPage.css'; // Create this CSS file for custom styles
+import { Container, Row, Col, Form, Button, Card } from "react-bootstrap";
+import logo from "../Images/logo.png";
+import "../App.scss";
 
 const LoginPage = () => {
   return (
@@ -9,7 +9,17 @@ const LoginPage = () => {
         <Col md={6} lg={4}>
           <Card className="shadow-lg">
             <Card.Body>
-              <h3 className="text-center mb-4">Login</h3>
+              <div className="text-center">
+                <img
+                  src={logo}
+                  width="65"
+                  height="65"
+                  alt="Logo"
+                  className="mb-2"
+                />
+                <h3 className=" mb-4">Login</h3>
+              </div>
+
               <Form>
                 <Form.Group controlId="formBasicEmail">
                   <Form.Label>Email address</Form.Label>
