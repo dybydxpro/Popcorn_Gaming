@@ -6,6 +6,8 @@ import Footer from "./components/Footer";
 import Popservice from "./components/Popular_Service";
 import AboutUs from "./Pages/About_Us";
 import ContactUs from "./Pages/ContactUs";
+import FAQS from "./Pages/FAQS";
+
 
 
 
@@ -20,6 +22,8 @@ function App() {
         <Route path="/popular_services" element={<Popservice/>} />
         <Route path="/aboutus" element={<AboutUs />} />
         <Route path="/contactus" element={<ContactUs />} />
+        <Route path="/faqs" element={<FAQS />} />
+
 
 
 
