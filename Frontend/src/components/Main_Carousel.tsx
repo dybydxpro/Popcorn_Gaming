@@ -40,7 +40,7 @@
 
 // export default Carousel_main;
 
-import React from 'react';
+// import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import ExampleCarouselImage2 from '../Images/image2.png'; // Adjust the path according to your project structure
 import "../App.scss"; // Custom styles for the carousel
