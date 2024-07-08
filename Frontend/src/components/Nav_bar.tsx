@@ -28,14 +28,15 @@ function Nav_bar() {
             <Nav.Link href="/" className="nav-link">
               Home
             </Nav.Link>
-            <Nav.Link href="#Services" className="nav-link">
-              Services
-            </Nav.Link>
+          
             <Nav.Link href="/aboutus" className="nav-link">
               About Us
             </Nav.Link>
             <Nav.Link href="/contactus" className="nav-link">
               Contact Us
+            </Nav.Link>
+            <Nav.Link href="/faqs" className="nav-link">
+              FAQS
             </Nav.Link>
             <NavDropdown
               title="Services"
