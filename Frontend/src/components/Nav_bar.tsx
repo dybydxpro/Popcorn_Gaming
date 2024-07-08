@@ -11,7 +11,7 @@ function Nav_bar() {
     <Navbar collapseOnSelect expand="lg" className="custom-navbar" fixed="top">
       <Container>
         <Navbar.Brand href="#home" className="navbar-brand">
-          <a href="https://example.com">
+          <a href="/">
             <img
               src={logo}
               width="40"
@@ -25,16 +25,16 @@ function Nav_bar() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home" className="nav-link">
+            <Nav.Link href="/" className="nav-link">
               Home
             </Nav.Link>
             <Nav.Link href="#Services" className="nav-link">
               Services
             </Nav.Link>
-            <Nav.Link href="#AboutUs" className="nav-link">
+            <Nav.Link href="/aboutus" className="nav-link">
               About Us
             </Nav.Link>
-            <Nav.Link href="#ContactUs" className="nav-link">
+            <Nav.Link href="/contactus" className="nav-link">
               Contact Us
             </Nav.Link>
             <NavDropdown
