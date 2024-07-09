@@ -614,3 +614,77 @@
   color: #ccc;
   padding: 20px;
 }
+
+
+/*Gaming Accessories .css*/
+
+.gaming-accessories-section {
+  background: linear-gradient(135deg, #232526, #414345);
+  padding: 60px 0;
+  color: #fff;
+  position: relative;
+}
+
+.gaming-accessories-row {
+  margin-bottom: 40px;
+}
+
+.gaming-accessories-col {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.gaming-accessories-title {
+  font-size: 36px;
+  color: #FED33A;
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+
+.accessory-col {
+  margin-bottom: 30px;
+}
+
+.accessory-card {
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.accessory-image {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.accessory-name {
+  font-size: 22px;
+  color: #FED33A;
+  margin-bottom: 10px;
+}
+
+.accessory-description {
+  font-size: 16px;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+.accessory-price {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.buy-button {
+  background: #FED33A;
+  border: none;
+  color: #232526;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 6px;
+  transition: background 0.3s ease-in-out;
+}
+
+.buy-button:hover {
+  background: #ffc107;
+}
