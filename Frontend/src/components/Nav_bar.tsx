@@ -46,8 +46,8 @@ function Nav_bar() {
               <NavDropdown.Item href="#action3">
                 Popular Services
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action4">
-                Gaming Components
+              <NavDropdown.Item href="/gamingaccessories">
+                Gaming accessories
               </NavDropdown.Item>
               <NavDropdown.Item href="#action5">
                 Something else here
