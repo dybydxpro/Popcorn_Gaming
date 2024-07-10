@@ -40,6 +40,8 @@ const GamingAccessories: React.FC = () => {
     <div className="gaming-accessories-section">
         <Nav_bar/>
         <br />
+        <br />
+        <br />
       <Container>
         <Row className="gaming-accessories-row">
           <Col xs={12} className="gaming-accessories-col">

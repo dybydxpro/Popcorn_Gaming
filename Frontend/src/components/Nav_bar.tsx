@@ -49,7 +49,7 @@ function Nav_bar() {
               <NavDropdown.Item href="/gamingaccessories">
                 Gaming accessories
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action5">
+              <NavDropdown.Item href="/CustomerReview">
                 Something else here
               </NavDropdown.Item>
             </NavDropdown>

@@ -409,7 +409,7 @@
  
  .about-us-section {
   background: linear-gradient(135deg, #232526, #414345);
-  padding: 60px 0;
+  padding: 0px 0;
   color: #fff;
   position: relative;
 }
@@ -496,7 +496,7 @@
 
 .contact-us-section {
   background: linear-gradient(135deg, #232526, #414345);
-  padding: 60px 0;
+  padding: 0px 0;
   color: #fff;
   position: relative;
 }
@@ -564,7 +564,7 @@
 
 .faq-section {
   background: linear-gradient(135deg, #232526, #414345);
-  padding: 60px 0;
+  padding: 0px 0;
   color: #fff;
   position: relative;
 }
@@ -620,7 +620,7 @@
 
 .gaming-accessories-section {
   background: linear-gradient(135deg, #232526, #414345);
-  padding: 60px 0;
+  padding: 0px 0;
   color: #fff;
   position: relative;
 }
@@ -687,4 +687,45 @@
 
 .buy-button:hover {
   background: #ffc107;
+}
+
+
+//Customer Review.css
+
+.review-form-container {
+  // margin: 2rem 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-control {
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  border: 1px solid #ced4da;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #007bff;
+  border: none;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
 }
