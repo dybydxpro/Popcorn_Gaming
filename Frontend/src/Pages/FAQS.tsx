@@ -5,15 +5,18 @@ import Col from "react-bootstrap/Col";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 import "../App.scss"; // Import the CSS file
-import Nav_bar from "../components/Nav_bar";
+import Navbar from "../components/Nav_bar";
 import Footer from "../components/Footer";
 
 const FAQ: React.FC = () => {
   return (
     <div className="faq-section">
-        <Nav_bar/>
+        <Navbar/>
         <br />
       <Container>
+        <br />
+        <br />
+        <br />
         <Row className="faq-row">
           <Col xs={12} className="faq-col">
             <h2 className="faq-title">Frequently Asked Questions</h2>

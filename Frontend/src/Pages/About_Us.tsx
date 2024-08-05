@@ -13,6 +13,9 @@ const AboutUs: React.FC = () => {
       <Container>
       <Navbar />
       <br />
+      <br />
+      <br />
+      <br />
         <Row className="about-us-row">
           <Col xs={12} md={6} className="about-us-col">
             <h2 className="about-us-title">About Us</h2>
