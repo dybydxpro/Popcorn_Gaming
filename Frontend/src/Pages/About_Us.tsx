@@ -5,6 +5,7 @@ import Col from "react-bootstrap/Col";
 import "../App.scss"; // Import the CSS file
 import Navbar from "../components/Nav_bar";
 import Footer from "../components/Footer";
+import BawanthaPP from "../Images/Bawantha.jpg"
 
 
 const AboutUs: React.FC = () => {
@@ -61,17 +62,17 @@ const teamMembers = [
   {
     name: "Bawantha Pramod",
     role: "Founder & Lead Coach",
-    photo: "path/to/john-doe-photo.jpg", // Replace with actual image path
+    photo: BawanthaPP, // Replace with actual image path
   },
   {
     name: "Theekshana Johnson",
     role: "Co-Founder & Strategist",
-    photo: "path/to/jane-smith-photo.jpg", // Replace with actual image path
+    photo: BawanthaPP, // Replace with actual image path
   },
   {
     name: "Sasiri Dinujaya",
     role: "Gameplay Analyst",
-    photo: "path/to/sam-wilson-photo.jpg", // Replace with actual image path
+    photo: BawanthaPP, // Replace with actual image path
   },
 ];
 

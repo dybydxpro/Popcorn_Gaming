@@ -12,7 +12,7 @@ function Home() {
       <Navbar />
       <br />
       <br />
-      <br />
+      <p></p>
       <Container>
         <Carousel_main />
         <br />

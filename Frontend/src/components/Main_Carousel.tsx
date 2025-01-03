@@ -53,8 +53,8 @@ function Carousel_main() {
           <img src={ExampleCarouselImage2} alt="First slide" className="carousel-image" />
           <div className="overlay"></div>
           <Carousel.Caption className="carousel-caption">
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            {/* <h3>First slide label</h3>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
           </Carousel.Caption>
         </Carousel.Item>
 
@@ -62,8 +62,8 @@ function Carousel_main() {
           <img src={ExampleCarouselImage2} alt="Second slide" className="carousel-image" />
           <div className="overlay"></div>
           <Carousel.Caption className="carousel-caption">
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            {/* <h3>Second slide label</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
           </Carousel.Caption>
         </Carousel.Item>
 
@@ -71,8 +71,8 @@ function Carousel_main() {
           <img src={ExampleCarouselImage2} alt="Third slide" className="carousel-image" />
           <div className="overlay"></div>
           <Carousel.Caption className="carousel-caption">
-            <h3>Third slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            {/* <h3>Third slide label</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

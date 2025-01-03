@@ -115,6 +115,18 @@ const Popular_Service = () => {
             </Card.Body>
           </Card>
         </Col>
+        <Col xs={12} sm={6} md={4} className="mb-4">
+          <Card className="service-card">
+            <Card.Img variant="top" src={card1} />
+            <Card.Body>
+              <Card.Title>Ultimate Royal</Card.Title>
+              <Card.Text>
+                Lead your squad to victory with our elite strategies.
+              </Card.Text>
+              <Button variant="warning">Order Now</Button>
+            </Card.Body>
+          </Card>
+        </Col>
       </Row>
     </Container>
   );
